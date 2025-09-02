@@ -4,5 +4,6 @@ main = "./.output/server/index.mjs"
 workers_dev = true
 compatibility_date = "2024-12-19"
 
-[observability.logs]
-enabled = false
+[observability]
+enabled = true
+head_sampling_rate = 1
